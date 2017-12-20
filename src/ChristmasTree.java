@@ -5,6 +5,8 @@
  *    
  ******************************************************************************/
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
 
 
@@ -78,6 +80,7 @@ rob.setPenColor(34,0,0);
 
         // 3. Move the robot a quarter the tree width
 rob.move((int) (treeWidth/4));
+JOptionPane.showMessageDialog(null, "Merry Christmas");
 
     }
     
